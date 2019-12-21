@@ -79,7 +79,44 @@ exports.domaines = [
         "lien": ""
     },
     {
+        "nom": "Santé",
+        "lien": ""
+    },
+    {
+        "nom": "Transport",
+        "lien": ""
+    },
+    {
         "nom": "Particulier",
+        "lien": ""
+    }
+    ,
+    {
+        "nom": "Metier",
+        "lien": ""
+    }
+    ,
+    {
+        "nom": "Science",
+        "lien": ""
+    },
+    {
+        "nom": "Immobilier",
+        "lien": ""
+    }
+    ,
+    {
+        "nom": "Sécurité",
+        "lien": ""
+    }
+    ,
+    {
+        "nom": "Industrie",
+        "lien": ""
+    }
+    ,
+    {
+        "nom": "Finance",
         "lien": ""
     }
     ,

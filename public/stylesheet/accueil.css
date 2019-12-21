@@ -8,15 +8,15 @@
 }
 
 body{
-   
+   overflow-x: hidden;
 }
 
 #baniere{
-    background-image: url('/images/fond.jpg');
+    /* background-image: url('/images/fond.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-blend-mode: color-burn;
+    background-blend-mode: color-burn; */
     height: 100vmin;
 }
 
@@ -37,5 +37,74 @@ nav{
 
 
 .information{
-    min-height: 100vh;
+    padding: 1.5cm;
+    /* min-height: 100vh; */
+}
+
+.text p{
+    font-size: 19px !important;
+}
+
+.ombre{
+    border: none !important;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.11) !important;
+}
+.ombre2{
+    border: none !important;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.308) !important;
+}
+
+
+.bar{
+    height: 0.2cm;
+    margin-bottom: 0.6cm;
+    background:  linear-gradient(52deg, rgba(52,249,252,1) 0%, rgba(46,175,253,1) 91%, rgba(45,166,253,1) 100%) !important;
+}
+
+.carre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6cm;
+    width: 6cm;
+    position: absolute;
+    bottom: 0;
+    left: -2cm;
+    transform: rotate(32deg);
+    background:  linear-gradient(52deg, rgba(52,249,252,1) 0%, rgba(46,175,253,1) 91%, rgba(45,166,253,1) 100%);
+}
+
+.rond{
+    display: flex;
+    opacity: 0.7;
+    align-items: center;
+    justify-content: center;
+    height: 4cm;
+    width: 4cm;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -0.9cm;
+    left: 2.4cm;
+    background:  radial-gradient(circle, rgba(52,249,252,1) 0%, rgba(46,175,253,1) 91%, rgba(45,166,253,1) 100%);
+}
+
+
+.icone i{
+    background: radial-gradient(rgb(36, 216, 219) 0%, rgb(7, 144, 230) 91%, rgba(45,166,253,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#services .carre{
+    display: flex;
+    opacity: 0.7;
+    align-items: center;
+    justify-content: center;
+    height: 15cm;
+    width: 15cm;
+    position: absolute;
+    right: 5cm;
+    bottom: -1.2cm;
+    left: 75vw;
+    background:  radial-gradient(circle, rgba(52,249,252,1) 0%, rgba(46,175,253,1) 91%, rgba(45,166,253,1) 100%);
 }

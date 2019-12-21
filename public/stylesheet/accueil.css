@@ -108,3 +108,13 @@ nav{
     left: 75vw;
     background:  radial-gradient(circle, rgba(52,249,252,1) 0%, rgba(46,175,253,1) 91%, rgba(45,166,253,1) 100%);
 }
+
+#pub{
+    background-image: url('/images/fond.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-blend-mode: color-burn;
+    background-color: rgba(255, 255, 255, 0.863)
+}

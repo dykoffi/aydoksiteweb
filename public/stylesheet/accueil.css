@@ -34,3 +34,8 @@ body{
 nav{
     background-color: rgba(49, 49, 49, 0.774)
 }
+
+
+.information{
+    min-height: 100vh;
+}

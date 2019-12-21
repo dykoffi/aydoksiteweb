@@ -4,6 +4,7 @@ var infos = require("../data/infos")
 
 const equipe = infos.equipe
 const services = infos.services
+const domaines = infos.domaines
 const mysql = require('mysql')
 
 const crypto = require('crypto');
@@ -17,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 router.get('/', function (req, res, next) {
-    res.render('accueil/index', {services : services, equipe : equipe, title: 'AYDOK | Accueil', error: "", logo: "< | >", host: req.hostname });
+    res.render('accueil/index', {domaines : domaines, services : services, equipe : equipe, title: 'AYDOK | Accueil', error: "", logo: "< | >", host: req.hostname });
 });
 
 module.exports = router;

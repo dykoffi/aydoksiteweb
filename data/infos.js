@@ -60,3 +60,32 @@ exports.services = [
     }
 
 ]
+
+exports.domaines = [
+    {
+        "nom": "Agriculture",
+        "lien": ""
+    },
+    {
+        "nom": "Elevage",
+        "lien": ""
+    },
+    {
+        "nom": "Administration",
+        "lien": ""
+    },
+    {
+        "nom": "Education",
+        "lien": ""
+    },
+    {
+        "nom": "Particulier",
+        "lien": ""
+    }
+    ,
+    {
+        "nom": "PME",
+        "lien": ""
+    }
+
+]

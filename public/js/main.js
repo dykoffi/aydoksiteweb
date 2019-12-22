@@ -15,16 +15,23 @@ $(".rond").paroller({
 });
 
 
-ScrollReveal().reveal('.card, #partenaires img',
+ScrollReveal().reveal('.card',
     {
-        delay: 250,
+        delay: 100,
+        interval : 300,
         scale : 0.6,
-        interval : 200,
-        rotate : "30deg",
-        duration : 1500,
-        reset : true,
+        duration : 1200,
         distance: '90%',
-        origin: 'bottom'
+    }
+);
+
+ScrollReveal().reveal('#partenaires img',
+    {
+        delay: 100,
+        interval : 300,
+        scale : 0.6,
+        duration : 1200,
+        distance: '90%',
     }
 );
 
@@ -32,12 +39,9 @@ ScrollReveal().reveal('.card, #partenaires img',
 
 ScrollReveal().reveal('.information h1, .information p',
     {
-        delay: 200,
+        delay: 0,
         scale : 0.8,
-        interval : 200,
-        rotate : "30deg",
-        duration : 1000,
-        reset : true,
+        duration : 500,
         distance: '20%',
         origin: 'left'
     }
